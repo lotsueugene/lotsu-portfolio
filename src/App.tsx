@@ -75,7 +75,7 @@ export default function App() {
             EL
           </span>
           <div className="flex items-center gap-8">
-            <a href="#work" className="text-sm text-zinc-400 hover:text-white transition-colors">Work</a>
+            <a href="#projects" className="text-sm text-zinc-400 hover:text-white transition-colors">Projects</a>
             <a href="#about" className="text-sm text-zinc-400 hover:text-white transition-colors">About</a>
             <a href="#contact" className="text-sm text-zinc-400 hover:text-white transition-colors">Contact</a>
           </div>
@@ -113,9 +113,9 @@ export default function App() {
       </section>
 
       {/* Projects */}
-      <section id="work" className="py-20 px-6">
+      <section id="projects" className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-8">Selected Work</h2>
+          <h2 className="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-8">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((project, i) => (
               <a
