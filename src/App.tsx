@@ -46,7 +46,8 @@ const projects = [
 const skills = [
   { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS'] },
   { category: 'Backend', items: ['Python', 'JavaScript'] },
-  { category: 'Tools', items: ['Git', 'Figma', 'Linux'] },
+  { category: 'Tools', items: ["Git", "VS Code", "Postgres", "Excel", "Jupyter Notebook", "Looker Studio", "Tableau"] },
+  { category: 'Organizations', items: ["ColorStack"] },
 ]
 
 const experience = [
