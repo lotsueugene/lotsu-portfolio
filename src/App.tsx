@@ -95,7 +95,7 @@ export default function App() {
             Hi, I'm <span className="bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">Eugene Lotsu</span>
           </h1>
           <p className="text-xl text-zinc-400 max-w-2xl mb-8 leading-relaxed">
-            Software developer passionate about AI and building tools that simplify complex problems.
+            Software engineer passionate about creating tools and applications that solve real world problems.
           </p>
           <div className="flex items-center gap-4">
             <a href="#contact" className="px-6 py-3 bg-white text-zinc-900 rounded-lg font-medium hover:bg-zinc-200 transition-colors">
